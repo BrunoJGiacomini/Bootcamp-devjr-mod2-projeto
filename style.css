@@ -1,0 +1,25 @@
+body{
+    background-color: #cccccc ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    background-color: #2d1032;
+    margin: auto;
+    padding: 50px;
+    width: 90%;
+    border-radius: 10px;  
+}
+.header{
+    padding: 20px;
+}
+.sub-header{
+    background-color: #561b60;
+    padding: 35px;
+    border-radius: 10px;
+}
+.flex-header{
+    background-color: #5289f4;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
