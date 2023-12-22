@@ -5,12 +5,13 @@ body{
 .content{
     background-color: #2d1032;
     margin: auto;
-    padding: 50px;
+    padding: 20px;
     width: 90%;
-    border-radius: 10px;  
+    border-radius: 10px; 
+    
 }
 .header{
-    padding: 20px;
+    padding-bottom: 20px; 
 }
 .sub-header{
     background-color: #561b60;
@@ -22,4 +23,16 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 15px;
+}
+.header-title{
+    color: #fecd23;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 28px;
+}
+.header-subtitle{
+    color: #FFF;
+    text-align: center;
+   padding-bottom: 15px;
 }
