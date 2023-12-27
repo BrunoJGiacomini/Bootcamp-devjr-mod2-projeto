@@ -1,38 +1,71 @@
 body{
     background-color: #cccccc ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .content{
     background-color: #2d1032;
     margin: auto;
-    padding: 20px;
-    width: 90%;
-    border-radius: 10px; 
-    
+    width: 670px;
+    padding: 15px 24px 30px;
+    border-radius: 10px;
 }
 .header{
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 .sub-header{
     background-color: #561b60;
-    padding: 35px;
+    padding: 15px;
     border-radius: 10px;
 }
 .flex-header{
-    background-color: #5289f4;
     display: flex;
     justify-content: space-around;
     padding: 15px;
 }
 .header-title{
     color: #fecd23;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 500;
     text-align: center;
     padding-bottom: 28px;
+    text-transform: uppercase;
 }
 .header-subtitle{
     color: #FFF;
     text-align: center;
-   padding-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.sub-header-title{
+    color: #FFF;
+    font-size: 23.5px;
+    font-weight: 400;
+    padding-bottom: 35px;
+    text-align: center;
+    
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    width: 76.5%;
+    height: 34px;
+    font-size: 18px;
+    padding-left: 8px;
+
+    margin-bottom: 28px;
+    margin-left: 11%;
+    
+    border-radius: 5px;
+    border: 0; 
+}
+
+.col-1{
+    background-color: #5289f4;
+}
+.col-2{
+    background-color: #5289f4;
+}
+.col-3{
+    background-color: #5289f4;
 }
